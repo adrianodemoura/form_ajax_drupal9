@@ -9,7 +9,7 @@ use Drupal\Core\Ajax\AjaxResponse;
 use Drupal\Core\Ajax\HtmlCommand;
 use Drupal\Core\Ajax\InvokeCommand;
 /**
- * Mantém o formulário com ajax bem simple.
+ * Mantém o formulário com ajax bem simples.
  */
 class FormAjaxDrupal9 extends FormBase {
 	/**
@@ -48,7 +48,7 @@ class FormAjaxDrupal9 extends FormBase {
 			'#ajax' 	=> ['callback'=>'::setMessage']
 		];
 
-		$form['#attached']['library'][] = 'form_simples/librarie';
+		$form['#attached']['library'][] = 'form_ajax_drupal9/librarie';
 
 		return $form;
 	}
