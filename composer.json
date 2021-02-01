@@ -1,9 +1,9 @@
 {
-    "name": "adrianodemoura/modulo_form_simples_drupal9",
+    "name": "adrianodemoura/form_ajax_drupal9",
     "description": "Módulo com formulário em ajax, bem simples",
     "type": "drupal-module",
-    "keywords": ["Drupal", "FormSimples"],
-    "homepage": "http://drupal.org/project/admin_toolbar",
+    "keywords": ["Drupal", "FormAjaxSimples"],
+    "homepage": "https://github.com/adrianodemoura/form_ajax_drupal9",
     "license": "MIT",
     "authors": [
         {
@@ -13,8 +13,8 @@
     ],
     "minimum-stability": "stable",
     "support": {
-    "issues": "https://github.com/adrianodemoura/modulo_form_simples_drupal9/issues",
-    "source": "https://github.com/adrianodemoura/modulo_form_simples_drupal9"
+    "issues": "https://github.com/adrianodemoura/form_ajax_drupal9/issues",
+    "source": "https://github.com/adrianodemoura/form_ajax_drupal9"
     },
     "require": {
         "drupal/core": "^8.8.0 || ^9.0"
