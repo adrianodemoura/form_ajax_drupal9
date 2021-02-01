@@ -1,0 +1,19 @@
+<?php
+/**
+ * form_simples.module
+ */
+/**
+ * - Mantem as coisas de `module` para o módulo `form_simples`.
+ *
+ * - Não achei legal porque o arquivo é chamado em todas as requisições do site.
+ *
+ */
+/*function form_simples_page_attachments(array &$page)
+{
+  	//if (!\Drupal::currentUser()->hasPermission('access contextual links')) { return; }
+
+	if ( strpos( @$page['#attached']['html_head'][0][0]['#attributes']['content'], 'destination=/formulario' ) )
+	{
+  		$page['#attached']['library'][] = 'form_simples/librarie';
+	}
+}*/

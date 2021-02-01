@@ -1,0 +1,7 @@
+librarie:
+  version: VERSION
+  js:
+    js/form_simples.js: {}
+  css:
+    theme:
+      css/form_simples.css: {}

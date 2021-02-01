@@ -1,0 +1,15 @@
+form_simples.content:
+  path: '/form_simples'
+  defaults:
+    _controller: '\Drupal\form_simples\Controller\FormSimplesController::content'
+    _title: 'Formulário Simples do Adriano Moura'
+  requirements:
+    _permission: 'access content'
+
+form_simples.submit_form:
+  path: '/formulario'
+  defaults: 
+    _form: '\Drupal\form_simples\Form\FormSimplesForm'
+    _title: 'Formulário com formulário'
+  requirements: 
+    _permission: 'access content'
