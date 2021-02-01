@@ -1,6 +1,6 @@
 name: Formulário Ajax Simples
 description: Formulário com ajax bem simples para drupal 9
-version: '1.0.0'
+version: '1.0.1'
 type: module
 core_version_requirement: ^9.0
 package: Custom

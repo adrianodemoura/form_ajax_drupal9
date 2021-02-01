@@ -1,7 +1,7 @@
 librarie:
   version: VERSION
   js:
-    js/form_simples.js: {}
+    js/form_ajax_drupal9.js: {}
   css:
     theme:
-      css/form_simples.css: {}
+      css/form_ajax_drupal9.css: {}

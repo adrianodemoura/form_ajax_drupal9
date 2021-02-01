@@ -1,7 +1,7 @@
 form_simples.submit_form:
   path: '/formulario'
   defaults: 
-    _form: '\Drupal\form_simples\Form\FormSimplesForm'
-    _title: 'Formulário com formulário'
+    _form: '\Drupal\form_ajax_drupal9\Form\FormAjaxDrupal9'
+    _title: 'Formulário Ajax bem Simples'
   requirements: 
     _permission: 'access content'

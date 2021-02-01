@@ -1,22 +1,22 @@
 <?php
 /**
- * Class FormSimplesForm
+ * Class FormAjaxDrupal9
  */
-namespace Drupal\form_simples\Form;
+namespace Drupal\form_ajax_drupal9\Form;
 use Drupal\Core\Form\FormBase;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Ajax\AjaxResponse;
 use Drupal\Core\Ajax\HtmlCommand;
 use Drupal\Core\Ajax\InvokeCommand;
 /**
- * Mantém o formulário simples.
+ * Mantém o formulário com ajax bem simple.
  */
-class FormSimplesForm extends FormBase {
+class FormAjaxDrupal9 extends FormBase {
 	/**
 	 */
 	public function getFormId()
 	{
-		return 'form_simples';
+		return 'form_ajax_drupal9';
 	}
 
 	/**
