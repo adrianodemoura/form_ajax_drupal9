@@ -67,10 +67,6 @@ class FormSimplesForm extends FormBase {
 		$postNome 		= @$form_state->getValue('nome');
 		$postEmail 		= @$form_state->getValue('email');
 
-		/*$htmlRetorno 	= "<div class='my_top_message'>nome: \"$postNome\", e-mail: \"$postEmail\"</div>";
-		$comandoHtml 	= new HtmlCommand('.ajax_message', $htmlRetorno );
-		$response->addCommand( $comandoHtml );*/
-
 		$response->addCommand( new InvokeCommand(NULL, 'funcaoJsQuePegaRetornoAjax', [$postEmail, $postNome] ) );
 
 		return $response;
