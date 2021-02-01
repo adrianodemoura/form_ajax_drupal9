@@ -1,11 +1,14 @@
 {
     "name": "adrianodemoura/form_ajax_drupal9",
     "description": "Módulo com formulário em ajax, bem simples",
-    "type": "drupal-module",
     "keywords": ["Drupal", "FormAjaxSimples"],
     "homepage": "https://github.com/adrianodemoura/form_ajax_drupal9",
+    "type": "library",
     "license": "MIT",
-    "authors": [
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "author": [
         {
             "name": "Adriano Moura",
             "email": "adrianodemoura@gmail.com"
