@@ -3,7 +3,7 @@
     "description": "Módulo com formulário em ajax, bem simples",
     "keywords": ["Drupal", "FormAjaxSimples"],
     "homepage": "https://github.com/adrianodemoura/form_ajax_drupal9",
-    "type": "library",
+    "type": "drupal-module",
     "license": "MIT",
     "require": {
         "php": ">=5.3.2"
