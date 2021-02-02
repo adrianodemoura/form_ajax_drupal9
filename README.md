@@ -9,7 +9,10 @@ $ composer require adrianodemoura/form_ajax_drupal9
 
 ### Ativação do módulo via drush
 ```
-$ drush pml | grep -i form
-$ drush ??? form_simples
+$ drush pm:en form_ajax_drupal9
 ```
 
+### Desativação do módulo via drush
+```
+$ drush pmu form_ajax_drupal9
+```
